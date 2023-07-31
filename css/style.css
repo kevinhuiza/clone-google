@@ -6,5 +6,16 @@ html {
     box-sizing: inherit;
   }
 
+body {
+    background-color: #202124;
+    color: #
+}
 
+.nav_button a{
+    list-style: none;
+}
+
+.nav_button-colordifer {
+    color: bdc1c6;
+}
 
