@@ -98,7 +98,7 @@ header {
 
 .main .main__input input {
     width: 45rem;
-    height: 4.0rem;
+    height: 4.5rem;
     border: none;
     outline: none;
 }
@@ -117,12 +117,12 @@ header {
 
 }
 .main .main__input .search-icon {
-    background-image: url('https://cdn-icons-png.flaticon.com/512/61/61088.png') ;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
     margin-left: 1.4rem;
 }
 
 .main .main__input .micro-icon {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
     cursor: pointer;
 }
 
