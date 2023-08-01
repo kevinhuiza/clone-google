@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="nav">           
             <ul class="nav__section nav__section--left">
                 <li><a href="#">Sobre Google</a></li>
@@ -25,5 +27,47 @@
             </ul>
         </nav>
     </header>
+    <main class="main">
+        <section class="main__logo">
+            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="Google">
+        </section>
+        <section class="main__input">
+            <div class="main__input-container">
+                <span class="search-icon"></span>
+                <input type="text">
+                <a class="micro-icon" href=""></a>
+                <a class="camera-icon" href="" alt="Búsqueda por imágenes"></a>
+            </div>
+        </section>
+        <section class="main__button">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Me siento con suerte</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <p>Venezuela</p>
+        </div>
+        <div class="footer-bottom">
+            <ul class="footer__left">
+                <li><a href="#">Publicidad</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Cómo funciona la Búsqueda</a></li>
+            </ul>
+            <ul class="footer__center">
+                <span class="sheet-icon"></span>
+                <li><a href="#">Tres décadas de acción climática: descubre lo que estamos haciendo</a></li>
+            </ul>
+            <ul class="footer__right">
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Términos</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
